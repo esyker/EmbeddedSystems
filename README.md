@@ -8,9 +8,7 @@ This project involves the creation of a weather station and is divided into two 
 The requesites were the utilization of communication and synchronization mechanisms between tasks, in the context of concurrent applications, and should familiarize
 with other embedded systems characteristics such as:
 - access devices using simple digital input/output
-lines or network/buses 
-- I2C (Inter Integrated Circuit)-
-- SPI (Serial Peripheral Interface);
+lines or network/buses such as I2C (Inter Integrated Circuit) or SPI (Serial Peripheral Interface);
 - save information in non-volatile memory devices (EEPROM);
 - utilization of analog-digital conversion;
 - programming timers;
