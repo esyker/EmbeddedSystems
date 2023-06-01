@@ -7,15 +7,13 @@ This project involves the creation of a weather station and is divided into two 
 
 The requesites were the utilization of communication and synchronization mechanisms between tasks, in the context of concurrent applications, and should familiarize
 with other embedded systems characteristics such as:
-- access devices using simple digital input/output
-lines or network/buses such as I2C (Inter Integrated Circuit) or SPI (Serial Peripheral Interface);
+- access devices using simple digital input/output lines or network/buses such as I2C (Inter Integrated Circuit) or SPI (Serial Peripheral Interface);
 - save information in non-volatile memory devices (EEPROM);
 - utilization of analog-digital conversion;
 - programming timers;
 - use interrupts; 
-- use of serial communication RS232.
-- energy consumption, resorting to operation modes
-that will allow as much as possible to increase system autonomy
+- use of serial communication RS232;
+- energy consumption, resorting to operation modes that will allow as much as possible to increase system autonomy;
 
 ### Part 2 Statement
 ***Check the project part 2 statement in Project_part2.pdf***
@@ -26,6 +24,9 @@ platform. It is developed communication interface between Part 1 (PIC board) and
 RS232 serial line. 
 
 ### Code
+
+***weather_station.c*** contains the code for the weather station.
+***Makefile*** contains the associated makefile.
 
 
 
